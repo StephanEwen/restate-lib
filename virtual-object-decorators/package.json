@@ -1,0 +1,19 @@
+{
+  "name": "restate-multi-version-vo",
+  "version": "0.0.1",
+  "description": "A Restate virtual object that keeps an incremental version history",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --noEmitOnError",
+    "app": "node ./dist/app.js",
+    "app-dev": "tsx watch ./src/app.ts"
+  },
+  "dependencies": {
+    "@restatedev/restate-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
