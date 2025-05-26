@@ -38,7 +38,7 @@ const myVO = restate.object({
 })
 
 const archiving = archivingVirtualObject(myVO, {
-  expiryTimeMs: 1000,
+  expiryTimeMs: 10_000,
   writer: writeToFile,
   reader: readFromFile
 });

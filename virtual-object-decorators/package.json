@@ -5,8 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc --noEmitOnError",
-    "app": "node ./dist/app.js",
-    "app-dev": "tsx watch ./src/app.ts"
+    "archiver": "tsx watch ./src/archiver/app.ts"
   },
   "dependencies": {
     "@restatedev/restate-sdk": "^1.6.0"

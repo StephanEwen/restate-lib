@@ -9,8 +9,9 @@ If you store a lot of state in a Virtual Objects and want cold objects to be sto
 else instead (like in an object store or a database), the [archiver](./src/archiver/) will write out VO state after it has not been modified for a specified duration.
 
 The [app.ts](./src/archiver/app.ts) file shows an example of how to use this.
-Below is a minimal pattern:
+Run `npm run archiver` to start this demo service.
 
+Below is a minimal pattern:
 ```TypeScript
 const myVO = restate.object({ ... });
 
